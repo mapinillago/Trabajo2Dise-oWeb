@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta description="UNAD Página web - Grupo 30">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/prefixfree.min.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <title>ESTRUCTURA  BASICA</title>
+</head>
+
+<body>
+
+<div id="contenedor">
+  <header class="page-header">
+    <a href="https://www.unad.edu.co" target="_blank"><img src="img/logoUNAD.png" alt="Universidad Nacional Abierta y a Distancia" height="80%"></a>
+     <nav id="nav" role="navigation"> <a href="#nav" title="Mostrar Menu">Mostrar Menu</a> <a href="#" title="Ocultar Menu">Ocultar Menu</a>
+      <ul class="clearfix">
+        <li><a href="index.html">INICIO <i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a href="instalacion-git.html">GIT <i class="fa fa-git" aria-hidden="true"></i> <i class="fa fa-github" aria-hidden="true"></i></a>
+          <!-- Submenu -->
+          <ul>
+            <li><a href="instalacion-git.html">Instalación GIT</a></li>
+            <li><a href="#">Instalación GITHUB</a></li>
+            <li><a href="#">GITHUB Pages</a></li>
+            <li><a href="#">Actividades</a></li>
+          </ul>
+        </li>
+        <li><a href="que-es-html.html">HTML <i class="fa fa-html5" aria-hidden="true"></i></a>
+          <!-- Submenu -->
+          <ul>
+            <li><a href="que-es-html.html">¿Qué es?</a></li>
+            <li><a href="estructura-basica.html">Estructura Basica</a></li>
+			<li><a href="tipos-contenido.html">Tipos De Contenido</a></li>
+            <li><a href="#">Actividades</a></li>
+          </ul>
+        </li>
+        <li><a href="#">CSS <i class="fa fa-css3" aria-hidden="true"></i></a>
+          <!-- Submenu -->
+          <ul>
+			<li><a href="#">Propiedad Display</a></li>
+			<li><a href="#">Modelo de Caja</a></li>
+            <li><a href="#">Actividades</a></li>
+          </ul>
+        </li>
+        <li><a href="autores.html">AUTORES <i class="fa fa-users" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="contenido3">
+    <article >
+	<h2>ESTRUCTURA BASICA</h2>
+    <p>HTML consiste en una serie de elementos. Los Elementos definen el significado semántico del contenido. Todos los Elementos están incluídos entre dos grandes etiquetas, que a su vez contienen otras etiquetas. Por ejemplo, el elemento &lt;p&gt; indica un párrafo; el elemento &lt;img&gt; indica una imagen. Mira la página HTML Elements para ver una lista completa de todos los elementos.
+	   Algunos elementos tienen un significado muy preciso, como "esto es una imagen", "esto es un encabezado" o "esto es una lista ordenada". Otros elementos resultan menos específicos, como "esto es una sección de una página" o "esto es parte de un texto". Finalmente otros elementos son usados por razones técnicas, como "esto es la información identificativa de la página que no debe ser mostrada". De un modo y otro, todos los elementos del HTML tienen un determinado valor semántico.
+	   Muchos elementos contienen otros elementos, formando una estructura jerárquica. Un ejemplo simple, pero completo de una página web sería este:</p>
+      
+	<div class="pre">
+	
+        <code>
+		<xmp>
+		    <html>
+			  <body>
+				<p>Mi perro <em>odia</em> el pescado.</p>
+			  </body>
+			</html>
+		</xmp>
+		</code><br>
+    </div>	
+    <p>Como puedes ver, los elementos &lt;html&gt; encierran el resto del documento, y el elemento &lt;body&gt; encierra el contenido de la página. Esta estructura crece como las ramas de un árbol, donde los elementos &lt;body&gt; y &lt;p&gt; son las ramas que crecen del tronco que es &lt;html&gt;. Esta estructura jerárquica es lo que se denomina DOM: siglas inglesas del "Modelo de Objetos del Documento" (Document Object Model).</p>	
+    </article>
+</div>
+
+  <aside class="twitter">
+  <a class="twitter-timeline" data-lang="es" data-width="300px" data-height="580px" data-link-color="#005883" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </aside>
+
+</div>
+
+<div class="button">
+  <button class="after"><span><i class="fa fa-angle-double-left" aria-hidden="true"></i> Anterior</span></button>
+  <button class="before"><span>Siguiente <i class="fa fa-angle-double-right" aria-hidden="true"></i></span></button>
+</div>
+
+<footer>
+  <div id="footer">
+    <div id="creditos">
+      <p>Desarrollado por:</p>
+      <div class="chip">
+        <a href="autores.html">
+          <img src="img/julian.jpg" alt="Julian" width="96" height="96">
+          Julián Andrés Osorio López,
+		  </a>
+		  <a>
+		  <img src="img/Mairon.jpg" alt="Mairon" width="96" height="96" >
+		  Mairon Adolfo Pinilla Gonzalez
+        </a>
+        </a>
+      </div>
+    </div>
+    <div id="contador">
+      <p>Contador de visitas:</p>
+      <a href="https://www.cerotec.net/estadisticas-111873/dsw-grupo30.github.io" title="ir a gráficas y estadísticas"><img src="https://www.cerotec.net/contador.php?t=27&s=2&i=111873" alt="Contador de visitas y estadísticas"></a></div>
+    </div>
+  </div>
+
+</footer>
+
+</body>
+
+</html>

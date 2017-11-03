@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta description="UNAD Página web - Grupo 30">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/prefixfree.min.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <title>TIPOS DE CONTENIDO</title>
+</head>
+
+<body>
+
+<div id="contenedor">
+  <header class="page-header">
+    <a href="https://www.unad.edu.co" target="_blank"><img src="img/logoUNAD.png" alt="Universidad Nacional Abierta y a Distancia" height="80%"></a>
+     <nav id="nav" role="navigation"> <a href="#nav" title="Mostrar Menu">Mostrar Menu</a> <a href="#" title="Ocultar Menu">Ocultar Menu</a>
+      <ul class="clearfix">
+        <li><a href="index.html">INICIO <i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a href="instalacion-git.html">GIT <i class="fa fa-git" aria-hidden="true"></i> <i class="fa fa-github" aria-hidden="true"></i></a>
+          <!-- Submenu -->
+          <ul>
+            <li><a href="instalacion-git.html">Instalación GIT</a></li>
+            <li><a href="#">Instalación GITHUB</a></li>
+            <li><a href="#">GITHUB Pages</a></li>
+            <li><a href="#">Actividades</a></li>
+          </ul>
+        </li>
+        <li><a href="que-es-html.html">HTML <i class="fa fa-html5" aria-hidden="true"></i></a>
+          <!-- Submenu -->
+          <ul>
+            <li><a href="que-es-html.html">¿Qué es?</a></li>
+            <li><a href="estructura-basica.html">Estructura Basica</a></li>
+			<li><a href="tipos-contenido.html">Tipos De Contenido</a></li>
+            <li><a href="#">Actividades</a></li>
+          </ul>
+        </li>
+        <li><a href="#">CSS <i class="fa fa-css3" aria-hidden="true"></i></a>
+          <!-- Submenu -->
+          <ul>
+			<li><a href="#">Propiedad Display</a></li>
+			<li><a href="#">Modelo de Caja</a></li>
+            <li><a href="#">Actividades</a></li>
+          </ul>
+        </li>
+        <li><a href="autores.html">AUTORES <i class="fa fa-users" aria-hidden="true"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="contenido3">
+    <article >
+	<h2>TIPOS DE CONTENIDO</h2>
+    <p>Cada elemento en HTML cae en cero o más categorías que agrupan elementos con características similares en conjunto. Las siguientes categorías se utilizan en esta especificación:
+        <ul>
+			<li><a href="#metadatos">Contenido de metadatos</a></li>
+			<li><a href="#flujo">Contenido de flujo</a></li>
+			<li><a href="#seccionador">Contenido seccionador</a></li>
+			<li><a href="#encabezado">Contenido de encabezado</a></li>
+			<li><a href="#redaccion">Contenido de redaccion</a></li>
+			<li><a href="#incrustado">Contenido incrustado</a></li>
+			<li><a href="#interactivo">Contenido interactivo</a></li>
+		</ul>
+	</p>	
+<h3 id="metadatos">CONTENIDO DE METADATOS</h3>	
+<p>El contenido de metadatos es el contenido que configura la presentación o el comportamiento del resto del contenido, o establece la relación del documento con otros documentos o transmite otra información "fuera de banda".
+Los elementos de otros espacios de nombres cuya semántica está principalmente relacionada con los metadatos (por ejemplo, RDF) también son contenido de metadatos .</p>
+<br>
+<h3 id="flujo">CONTENIDO DE FLUJO</h3>	
+
+<p>La mayoría de los elementos que se utilizan en el cuerpo de documentos y aplicaciones se clasifican como contenido de flujo .
+A continuacion se mensionan varias de las etiquetas usadas en este tipo de contenido:
+<br>
+<b>a abbr address area(si es un descendiente de un mapelemento) article aside audio b bdi bdo blockquote br button canvas cite code data datalist del dfn div dl em embed fieldset figure footer form h1 h2 h3 h4 h5 h6 header hr i iframe img input ins kbd keygen label main map mark math meter nav noscript object ol output p pre progress q ruby s samp script section select small span strong sub sup svg table template textarea time u ul var video wbr Texto</b></p>
+<br>
+<h3 id="seccionador">CONTENIDO SECCIONADOR</h3>
+
+<p>El contenido seccionado es contenido que define el alcance de los encabezados y pies de página .
+A continuacion se mensionan varias de las etiquetas usadas en este tipo de contenido:
+<br>
+<b>article aside nav section</b>
+<br>
+Cada elemento de contenido de sección tiene potencialmente un encabezado y un contorno .<br>
+También hay ciertos elementos que están seccionando raíces . Estos son distintos del contenido de sección , pero también pueden tener un esquema .</p>
+
+<h3 id="encabezado">CONTENIDO DE ENCABEZADO</h3>
+
+<p>El contenido del encabezado define el encabezado de una sección (ya sea marcado explícitamente mediante el uso de elementos de contenido de seccionamiento , o implícito en el contenido del encabezado).
+A continuacion se mensionan varias de las etiquetas usadas en este tipo de contenido:
+<br>
+<b>h1 h2 h3 h4 h5 h6</b></p>
+<br>
+<h3 id="redaccion">CONTENIDO DE REDACCION</h3>
+
+<p>El contenido de la redacción es el texto del documento, así como los elementos que marcan ese texto a nivel de intrapárrafo. Se ejecuta de contenido estático forma párrafos .
+  A continuacion se mensionan varias de las etiquetas usadas en este tipo de contenido:
+  <br>
+<b>a abbr area(si es un descendiente de un mapelemento) audio b bdi bdo br button canvas cite code data datalist del dfn em embed i iframe img input ins kbd keygen label map mark math meter noscript object output progress q ruby s samp script select small span strong sub sup svg template textarea time u var video wbr Texto</b>
+  <br>
+La mayoría de los elementos que se clasifican como contenido de redacción solo pueden contener elementos que a su vez se clasifican como contenido de redacción, no como contenido de flujo.
+
+El texto , en el contexto de los modelos de contenido, significa nada o Textnodos. El texto a veces se usa como un modelo de contenido por sí mismo, pero también es un contenido de fraseo , y puede ser un espacio en blanco entre elementos (si los Textnodos están vacíos o contienen solo caracteres de espacio ).
+
+Los Textnodos y los valores de los atributos deben constar de caracteres Unicode , no deben contener U +0000 caracteres, no deben contener caracteres Unicode permanentemente indefinidos (no caracteres) y no deben contener caracteres de control que no sean caracteres espaciales . Esta especificación incluye restricciones adicionales sobre el valor exacto de los Textnodos y los valores de los atributos en función de su contexto preciso.</p>
+
+<h3 id="incrustado">CONTENIDO INCRUSTADO</h3>
+
+<p>El contenido incrustado es contenido que importa otro recurso en el documento o contenido de otro vocabulario que se inserta en el documento.
+A continuacion se mensionan varias de las etiquetas usadas en este tipo de contenido:
+<br>
+<b>audio canvas embed iframe img math object svg video</b>
+<br>
+Los elementos que provienen de espacios de nombres distintos del espacio de nombres HTML y que transmiten contenido pero no metadatos, son contenido incorporado para los propósitos de los modelos de contenido definidos en esta especificación. (Por ejemplo, MathML o SVG).
+Algunos elementos de contenido incrustado pueden tener contenido alternativo : contenido que se utilizará cuando el recurso externo no se pueda usar (por ejemplo, porque no tiene un formato compatible). Las definiciones de los elementos indican cuál es la reserva, si hay alguna.</p>
+
+<h3 id="interactivo">CONTENIDO INTERACTIVO</h3>
+
+<p>El contenido interactivo es contenido específicamente destinado a la interacción del usuario.
+A continuacion se mensionan varias de las etiquetas usadas en este tipo de contenido:
+<br>
+<b>a audio(si el control-atributo está presente) button embed iframe img(si el usemapatributo está presente) input(si el typeatributo no está en el estado Oculto ) keygen label object(si el usemapatributo está presente) select textarea video(si el controlsatributo está presente)</b>
+<br>
+Ciertos elementos en HTML tienen un comportamiento de activación , lo que significa que el usuario puede activarlos. Esto desencadena una secuencia de eventos que depende del mecanismo de activación y que normalmente culmina en un clickevento , como se describe a continuación .
+
+El agente de usuario debe permitir al usuario activar manualmente los elementos que tienen un comportamiento de activación , por ejemplo, mediante el teclado o la entrada de voz, o mediante clics del mouse. Cuando el usuario desencadena un elemento con un comportamiento de activación definido de una manera distinta a hacer clic en él, la acción predeterminada del evento de interacción debe ser ejecutar pasos sintéticos de activación de clics en el elemento.
+
+Cada elemento tiene un clic en el indicador de progreso , inicialmente establecido en falso.</p>
+	
+    </article>
+</div>
+
+  <aside class="twitter">
+  <a class="twitter-timeline" data-lang="es" data-width="300px" data-height="580px" data-link-color="#005883" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </aside>
+
+</div>
+
+<div class="button">
+  <button class="after"><span><i class="fa fa-angle-double-left" aria-hidden="true"></i> Anterior</span></button>
+  <button class="before"><span>Siguiente <i class="fa fa-angle-double-right" aria-hidden="true"></i></span></button>
+</div>
+
+<footer>
+  <div id="footer">
+    <div id="creditos">
+      <p>Desarrollado por:</p>
+      <div class="chip">
+        <a href="autores.html">
+          <img src="img/julian.jpg" alt="Julian" width="96" height="96">
+          Julián Andrés Osorio López,
+		  </a>
+		  <a>
+		  <img src="img/Mairon.jpg" alt="Mairon" width="96" height="96" >
+		  Mairon Adolfo Pinilla Gonzalez
+        </a>
+        </a>
+      </div>
+    </div>
+    <div id="contador">
+      <p>Contador de visitas:</p>
+      <a href="https://www.cerotec.net/estadisticas-111873/dsw-grupo30.github.io" title="ir a gráficas y estadísticas"><img src="https://www.cerotec.net/contador.php?t=27&s=2&i=111873" alt="Contador de visitas y estadísticas"></a></div>
+    </div>
+  </div>
+
+</footer>
+
+</body>
+
+</html>
