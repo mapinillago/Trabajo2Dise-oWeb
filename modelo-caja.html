@@ -11,7 +11,7 @@
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/prefixfree.min.js"></script>
   <script type="text/javascript" src="js/menu.js"></script>
-  <title>HTML5</title>
+  <title>TIPOS DE CONTENIDO</title>
 </head>
 
 <body>
@@ -53,29 +53,39 @@
 
 <div class="contenido3">
     <article >
-	<h2>HTML5</h2>
-    <p>Es la última versión de HTML. El término representa dos conceptos diferentes: 
-	         Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos.
-			 Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance. A este conjunto se le llama HTML5 y amigos, a menudo reducido a HTML5 .
-			 
-			Diseñado para ser utilizable por todos los desarrolladores de Open Web, esta página referencía numerosos recursos sobre las tecnologías de HTML5, clasificados en varios grupos según su función.</p>
-      
-	<h2>Semántica:</h2>  
-			<p>Permite describir con mayor precisión cual es su contenido.</p>
-	<h2>Conectividad:</h2>		
-			<p>Permite comunicarse con el servidor de formas nuevas e innovadoras.</p>
-	<h2>Sin conexión y almacenamiento:</h2>
-			 <p>Permite a las páginas web almacenar datos localmente en el lado del cliente y operar sin conexión de manera más eficiente.</p>
-	<h2>Multimedia:</h2>		
-			<p>Nos otorga un excelente soporte para utilizar contenido multimedia como lo son audio y video nativamente.</p>
-	<h2>Gráficos y efectos 2D/3D:</h2>		
-			<p>Proporciona una amplia gama de nuevas características que se ocupan de los gráficos en la web como lo son canvas 2D, WebGL, SVG, etc.</p>
-	<h2>Rendimiento e Integración:</h2>		
-			<p>Proporciona una mayor optimización de la velocidad y un mejor uso del hardware.</p>
-	<h2>Acceso al dispositivo:</h2>		
-			<p>Proporciona APIs para el uso de varios compomentes internos de entrada y salida de nuestro dispositivo.</p>
-	<h2>CSS3:</h2>		
-			<p>Nos ofrece una nueva gran variedad de opciones para hacer diseños más sofisticados.</p>
+	<h2>Modelo de caja</h2>
+
+<p>El modelo de cajas o "box model" es seguramente la característica más importante del lenguaje de hojas de estilos CSS, ya que condiciona el diseño de todas las páginas web. El modelo de cajas es el comportamiento de CSS que hace que todos los elementos de las páginas se representen mediante cajas rectangulares.<br><br>
+
+Las cajas de una página se crean automáticamente. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja rectangular que encierra los contenidos de ese elemento. La siguiente imagen muestra las tres cajas rectangulares que crean las tres etiquetas HTML que incluye la página:</p>
+
+<img src="img/modeloC1.gif"  width="220" height="220">
+
+<p><strong>Las cajas se crean automáticamente al definir cada elemento HTML</strong></p><br>
+
+<p>Las cajas de las páginas no son visibles a simple vista porque inicialmente no muestran ningún color de fondo ni ningún borde.<br> La siguiente imagen muestra las cajas que forman la página web de http://www.alistapart.com/ después de forzar a que todas las cajas muestren su borde:</p><br>
+
+<p><strong>Cajas que forman la página alistapart.com</strong></p>
+
+<p>Los navegadores crean y colocan las cajas de forma automática, pero CSS permite modificar todas sus características. Cada una de las cajas está formada por seis partes, tal y como muestra la siguiente imagen:</p><br><br>
+
+<p><strong>Representación tridimensional del box model de CSS</strong></p>
+
+<img src="img/modeloC2.gif"  width="500" height="500">
+
+<p>(Esquema utilizado con permiso de http://www.hicksdesign.co.uk/boxmodel/)
+Las partes que componen cada caja y su orden de visualización desde el punto de vista del usuario son las siguientes:</p>
+
+<img src="img/modeloC3.gif"  width="700" height="700">
+
+<p><strong>Contenido (content):</strong> se trata del contenido HTML del elemento (las palabras de un párrafo, una imagen, el texto de una lista de elementos, etc.)<br>
+<strong>Relleno (padding):</strong> espacio libre opcional existente entre el contenido y el borde.<br>
+<strong>Borde (border):</strong> línea que encierra completamente el contenido y su relleno.<br>
+<strong>Imagen de fondo (background image):</strong> imagen que se muestra por detrás del contenido y el espacio de relleno.<br>
+<strong>Color de fondo (background color):</strong> color que se muestra por detrás del contenido y el espacio de relleno.<br>
+<strong>Margen (margin):</strong> separación opcional existente entre la caja y el resto de cajas adyacentes.<br>
+El relleno y el margen son transparentes, por lo que en el espacio ocupado por el relleno se muestra el color o imagen de fondo (si están definidos) y en el espacio ocupado por el margen se muestra el color o imagen de fondo de su elemento padre (si están definidos). Si ningún elemento padre tiene definido un color o imagen de fondo, se muestra el color o imagen de fondo de la propia página (si están definidos).<br><br>
+Si una caja define tanto un color como una imagen de fondo, la imagen tiene más prioridad y es la que se visualiza. No obstante, si la imagen de fondo no cubre totalmente la caja del elemento o si la imagen tiene zonas transparentes, también se visualiza el color de fondo. Combinando imagenes transparentes y colores de fondo se pueden lograr efectos gráficos muy interesantes.</p>
     </article>
 </div>
 
@@ -86,8 +96,7 @@
 </div>
 
 <div class="button">
-  <a href="que-es-html.html"><button class="after"><span><i class="fa fa-angle-double-left" aria-hidden="true"></i> Anterior</span></button></a>
-  <a href="estructura-basica.html"><button class="before"><span>Siguiente <i class="fa fa-angle-double-right" aria-hidden="true"></i></span></button></a>
+  <a href="propiedad-display.html"><button class="after"><span><i class="fa fa-angle-double-left" aria-hidden="true"></i> Anterior</span></button></a>
 </div>
 
 <footer>
@@ -102,6 +111,7 @@
 		  <a>
 		  <img src="img/Mairon.jpg" alt="Mairon" width="96" height="96" >
 		  Mairon Adolfo Pinilla Gonzalez
+        </a>
         </a>
       </div>
     </div>
